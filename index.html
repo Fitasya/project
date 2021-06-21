@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CushyPro Platform</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="personal.css">
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery.mobile-1.4.5.js"></script>
+    <script src="project.js"></script>
+</head>
+
+<body>
+
+    <body onload="hideTable();"></body>
+    <!--main page-->
+    <div data-role="page" id="main">
+
+        <!--Main page header-->
+        <div data-role="header" id="banner">
+
+            <div><a href="#main" data-transition="pop">
+                    <div><img id="cushyproicon" src="E commerce/icon7.png" alt="icon7" width="50px"></div>
+                    <div id="cushyproicon2">CushyPro</div>
+                </a>
+            </div>
+            <div>
+                <div><a href="#product" id="menuView" data-transition="slide">Products</a></div>
+                <div><a href="#order" id="menuView2" data-transition="slide">Order</a></div>
+                <div><a href="#contact" id="menuView2" data-transition="slide">Contact Us</a></div>
+            </div>
+        </div>
+
+        <!--main page body-->
+        <div data-role="main" class="ui-content" id="body">
+            <div>
+                <img id="photo1" src="E commerce/photo2.PNG" alt="photo1" width="328px">
+                <fieldset id="group1">
+                    <div>In year 2021, CushyPro is launched and we are producing modern contemporary furniture. Our
+                        range of products are:</div>
+                    <ul>
+                        <li>Dining Table</li>
+                        <li>Sofa</li>
+                        <li>Lounge Chair</li>
+                        <li>Lightings</li>
+                        <li>Home Decor</li>
+                        <li>Floral Arrangement</li>
+                    </ul>
+                    <div>Discover our wide range of products in-store or online!</div>
+                </fieldset>
+            </div>
+        </div>
+
+        <!--main page footer-->
+        <div data-role="footer" id="foot">
+            <div id="kaki">© CushyPro 2021 </div>
+        </div>
+
+    </div>
+
+    <div data-role="page" id="product">
+
+        <div data-role="header" id="banner">
+            <div><a href="#main" data-transition="pop">
+                    <div><img id="cushyproicon" src="E commerce/icon7.png" alt="icon7" width="50px"></div>
+                    <div id="cushyproicon2">CushyPro</div>
+                </a>
+            </div>
+            <div>
+                <div><a href="#product" id="menuView" data-transition="slide">Products</a></div>
+                <div><a href="#order" id="menuView2" data-transition="slide">Order</a></div>
+                <div><a href="#contact" id="menuView2" data-transition="slide">Contact Us</a></div>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content" id="body">
+            <div data-role="collapsibleset">
+                <div data-role="collapsible">
+                    <h2>Seating</h2>
+                    <ul data-role="listview" data-inset="true">
+                        <li>
+                            <img src="photo/couch1.jpg">
+                            <h2>Three Seater Sofa by Bautier</h2>
+                            <p>RM300</p>
+                        </li>
+                        <li>
+                            <img src="photo/couch2.jpg">
+                            <h2>Reva Twish by Pedrali</h2>
+                            <p>RM100</p>
+                        </li>
+                        <li>
+                            <img src="photo/couch3.jpg">
+                            <h2>Nak 3-seater sofa by Bivaq</h2>
+                            <p>RM500</p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="collapsible">
+                    <h2>Table</h2>
+                    <ul data-role="listview" data-inset="true">
+                        <li>
+                            <img src="photo/table1.jpg">
+                            <h2>Xaver Coffee Table by Belfakto</h2>
+                            <p>RM200</p>
+                        </li>
+                        <li>
+                            <img src="photo/table2.jpg">
+                            <h2>Shangai Ceramic Top Table by Riflessi</h2>
+                            <p>RM200</p>
+                        </li>
+                        <li>
+                            <img src="photo/table3.jpg">
+                            <h2>Bolt by Phoenix</h2>
+                            <p>RM150</p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="collapsible">
+                    <h2>Bed Frame</h2>
+                    <ul data-role="listview" data-inset="true">
+                        <li>
+                            <img src="photo/bed1.jpg">
+                            <h2>Nyan by Porada</h2>
+                            <p>RM200</p>
+                        </li>
+                        <li>
+                            <img src="photo/bed2.jpg">
+                            <h2>Headboard Bruxelles by Treca Paris</h2>
+                            <p>RM400</p>
+                        </li>
+                        <li>
+                            <img src="photo/bed3.jpg">
+                            <h2>Suzie Wong Bed by Poltrona Frau</h2>
+                            <p>RM300</p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="collapsible">
+                    <h2>Indoor Pot</h2>
+                    <ul data-role="listview" data-inset="true">
+                        <li>
+                            <img src="photo/pot1.jpg">
+                            <h2>Soma XL Mixed Materials by Indigenus</h2>
+                            <p>RM50</p>
+                        </li>
+                        <li>
+                            <img src="photo/pot2.jpg">
+                            <h2>Council by Bloss</h2>
+                            <p>RM45</p>
+                        </li>
+                        <li>
+                            <img src="photo/pot3.jpg">
+                            <h2>Bhaca Small by Indigenus</h2>
+                            <p>RM60</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" id="foot">
+            <div id="kaki">© CushyPro 2021 </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="order">
+
+        <div data-role="header" id="banner">
+            <div><a href="#main" data-transition="pop">
+                    <div><img id="cushyproicon" src="E commerce/icon7.png" alt="icon7" width="50px"></div>
+                    <div id="cushyproicon2">CushyPro</div>
+                </a>
+            </div>
+            <div>
+                <div><a href="#product" id="menuView" data-transition="slide">Products</a></div>
+                <div><a href="#order" id="menuView2" data-transition="slide">Order</a></div>
+                <div><a href="#contact" id="menuView2" data-transition="slide">Contact Us</a></div>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content" id="body">
+            <form id="orderProduct" method="post" onsubmit="return output();">
+                <p><label for="name">Name:</label></p>
+                <input class="textInput" type="text" id="name" name="name" required>
+                <p><label for="phone">Phone number:</label></p>
+                <input class="phoneInput" type="tel" id="phoneNo" name="phoneNo" required>
+                <p><label for="address">Address:</label></p>
+                <textarea class="textInput" id="address" name="address" rows="4" required></textarea>
+
+                <label>Select Furniture</label>
+                <select id="select1" onchange="fun1()">
+                    <option></option>
+                    <option value="1">Seating</option>
+                    <option value="2">Table</option>
+                    <option value="3">Bed Frame</option>
+                    <option value="4">Indoor Pot</option>
+                </select>
+
+                <fieldset id="seating">
+                    <p>Seating</p>
+                    <label><input type="checkbox" name="chk" value="1" id="ck1">Three Seater Sofa by Bautier</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity1" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="2" id="ck2">Reva Twish by Pedrali</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity2" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="3" id="ck3">Nak 3-seater sofa by Bivaq</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity3" name="quantity" min="1" max="5">
+                </fieldset>
+
+                <fieldset id="table">
+                    <p>Table</p>
+                    <label><input type="checkbox" name="chk" value="1" id="ck4">Xaver Coffee Table by Belfakto</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity4" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="2" id="ck5">Shangai Ceramic Top Table by
+                        Riflessi</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity5" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="3" id="ck6">Bolt by Phoenix</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity6" name="quantity" min="1" max="5">
+                </fieldset>
+
+                <fieldset id="bedframe">
+                    <p>Bed Frame</p>
+                    <label><input type="checkbox" name="chk" value="1" id="ck7">Nyan by Porada</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity7" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="2" id="ck8">Headboard Bruxelles by Treca
+                        Paris</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity8" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="3" id="ck9">Suzie Wong Bed by Poltrona Frau</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity9" name="quantity" min="1" max="5">
+                </fieldset>
+
+                <fieldset id="pot">
+                    <p>Indoor Pot</p>
+                    <label><input type="checkbox" name="chk" value="One" id="ck10">Soma XL Mixed Materials by
+                        Indigenus</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity10" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="One" id="ck11">Council by Bloss</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity11" name="quantity" min="1" max="5">
+
+                    <label><input type="checkbox" name="chk" value="One" id="ck12">Bhaca Small by Indigenus</label>
+                    <label for="quantity">Quantity (Max 5):</label>
+                    <input type="number" id="quantity12" name="quantity" min="1" max="5">
+                </fieldset>
+
+                <br><input class="submit" type="submit" value="Order">
+                <input class="reset" type="reset" value="Reset">
+            </form>
+
+
+            <table border="1" width="600" cellpadding="10" cellspacing="0" id="tableOutput">
+                <tr>
+                    <th colspan="3" id="assist">VIEW ORDER</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td colspan="2">
+                        <p id="nameDisplay"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td colspan="2">
+                        <p id="phoneDisplay"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td colspan="2">
+                        <p id="addressDisplay"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Product Ordered</td>
+                    <td>
+                        <p id="product1Display"></p>
+                    </td>
+                    <td>
+                        <p id="price1Display"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="product2Display"></p>
+                    </td>
+                    <td>
+                        <p id="price2Display"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="product3Display"></p>
+                    </td>
+                    <td>
+                        <p id="price3Display"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Grand Total</td>
+                    <td></td>
+                    <th>
+                        <p id="grandTotal"></p>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <div data-role="footer" id="foot">
+            <div id="kaki">© CushyPro 2021 </div>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="contact">
+        <div data-role="header" id="banner">
+            <div><a href="#main" data-transition="pop">
+                    <div><img id="cushyproicon" src="E commerce/icon7.png" alt="icon7" width="50px"></div>
+                    <div id="cushyproicon2">CushyPro</div>
+                </a>
+            </div>
+            <div>
+                <div><a href="#product" id="menuView" data-transition="slide">Products</a></div>
+                <div><a href="#order" id="menuView2" data-transition="slide">Order</a></div>
+                <div><a href="#contact" id="menuView2" data-transition="slide">Contact Us</a></div>
+            </div>
+        </div>
+
+        <div data-role="main" class="ui-content" id="body">
+            <div class="about-section">
+                <h1>CushyPro Lineup</h1>
+                <h3>Feel free to contact us for any inquiries</h3>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="photo/kavi.jpeg.jpg" alt="KAVI" style="width:100%">
+                        <div class="container">
+                            <h2>Kaviyaashini A/P Jayasilan</h2>
+                            <p class="title">CEO & Founder</p>
+                            <p>Founder of CushyPro</p>
+                            <p>18DDT19F1139</p>
+                            <p>kaviyaashinijayasilan@gmail.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <img src="photo/shesha.jpeg.jpg" alt="SHESHA" style="width:100%">
+                        <div class="container">
+                            <h2>Sheshastri Dewar A/L Devandran Baskaran</h2>
+                            <p class="title">Art Director</p>
+                            <p>Art Director of CushyPro</p>
+                            <p>18DDT19F1089</p>
+                            <p>sheshastri@gmail.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <img src="photo/syaf.jpeg.jpg" alt="SYAFAA" style="width:100%">
+                        <div class="container">
+                            <h2>As Syafaa' Binti Amran</h2>
+                            <p class="title">Designer</p>
+                            <p>Designer of CushyPro</p>
+                            <p>18DDT19F1140</p>
+                            <p>syafaa@gmail.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" id="foot">
+            <div id="kaki">© CushyPro 2021 </div>
+        </div>
+        <!--main page footer-->
+    </div>
+</body>
+<script type="text/javascript">
+    fun2();
+</script>
+
+</html>
